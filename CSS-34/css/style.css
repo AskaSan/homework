@@ -14,6 +14,7 @@
 .a-4 {
     color: blueviolet;
     word-spacing: 30px;
+    text-decoration: overline wavy green;
 }
 .a-5 {
     letter-spacing: 5px;
