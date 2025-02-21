@@ -1,0 +1,28 @@
+article {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+
+    background: rgb(190, 175, 132);
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 1px 10px 15px 1px;
+
+    box-shadow: inset 1px 1px 5px rgb(88, 85, 81), inset -1px -1px 5px rgb(88, 86, 81);
+}
+
+
+main {
+    width: auto;
+    height: 500px;
+    overflow: scroll;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 1px 10px 15px 1px;
+}
