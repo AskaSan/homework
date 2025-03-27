@@ -1,0 +1,56 @@
+body {
+    background: white;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    border: 2px dashed black;
+    width: 500px;
+    height: 500px;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: rgb(20, 19, 19);
+    right: 1210px;
+}
+
+.square__red {
+    background: rgb(212, 78, 78);
+    width: 100px;
+    height: 100px;
+}
+
+.square__green {
+    background: rgb(82, 194, 82);
+    width: 100px;
+    height: 100px;
+    top: 100px;
+}
+
+.square__purple {
+    background: rgb(196, 83, 196);
+    width: 100px;
+    height: 100px;
+    top: 200px;
+}
+
+.red {
+    transform: translate(350px, 400px);
+}
+
+.green {
+    transform: translate(200px, -10px) rotate(110deg) scale(1.5, 1.5);
+}
+
+.purple {
+    transform: translate(450px, -150px) rotate(180deg) scale(2, 2);
+}
