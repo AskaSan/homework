@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    background: rgb(8, 8, 8);
+}
+
+.circle--gray {
+    height: 200px;
+    width: 200px;
+    background: rgb(58, 53, 53);
+    border-radius: 5%;
+}
+
+.circle {
+    position: relative;
+    top: 350px;
+    left: 850px;
+}
+
+.circle:hover::after {
+    position: relative;
+    top: 85px;
+    left: 80px;
+    content: 'Успех!';
+    color: rgb(85, 173, 85);
+}
+
+.loading {
+    height: 25px;
+    width: 0;
+    background: rgb(255, 255, 254);
+
+    position: absolute;
+    top: 300px;
+    left: 750px;
+
+    transition: width 2s ease;
+}
+
+.circle:hover + .loading {
+    width: 415px; 
+}
